@@ -1,0 +1,27 @@
+header {
+    background-color: #f6cec5;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__img {
+    width: 150px;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex: 1;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+
+}

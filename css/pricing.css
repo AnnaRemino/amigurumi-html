@@ -1,0 +1,48 @@
+/* .card {
+    background: linear-gradient( rgba(146,146,146,0.5),rgba(146, 146, 146, 0.5) ), url("../img/naturale.jpg");
+    background-position: 50% 50%;
+    width: 313px;
+    height: 313px;
+} */
+.pricing__container {
+    display: flex;
+    justify-content: center;
+}
+
+.card__natural {
+    background: url("../img/naturale.jpg");
+    background-position: 50% 50%;
+    width: 313px;
+    height: 313px;
+    border: thick double black;
+    margin: 5px;
+}
+
+.card__plush {
+    background: url("../img/plush.jpg");
+    background-position: 50% 50%;
+    width: 313px;
+    height: 313px;
+    border: thick double black;
+    margin: 5px;
+}
+
+.card__syntetic {
+    background: url("../img/syntetic.jpg");
+    background-position: 50% 50%;
+    width: 313px;
+    height: 313px;
+    border: thick double black;
+    margin: 5px;
+}
+
+.card__header {
+    height: 40px;
+    background-color: #ddd;
+    text-align: center;
+}
+
+button {
+    width: 105px;
+    height: 40px;
+}

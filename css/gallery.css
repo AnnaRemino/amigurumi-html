@@ -1,0 +1,37 @@
+.img__gallery {
+    height: 450px;
+    margin: 15px;
+    justify-self: center;
+    align-self:center;
+    border: thick double black;
+}
+
+.gallery__container {
+    display: flex;
+}
+
+@media (min-width: 240px) {
+    
+    .gallery__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+}
+
+@media (min-width: 800px) {
+    
+    .gallery__container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media (min-width: 1600px) {
+    
+    .gallery__container {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+}
